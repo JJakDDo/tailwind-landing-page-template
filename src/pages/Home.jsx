@@ -10,26 +10,19 @@ import Footer from '../partials/Footer';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
-
+    <div className='flex flex-col min-h-screen overflow-hidden'>
       {/*  Site header */}
       <Header />
 
       {/*  Page content */}
-      <main className="flex-grow">
-
+      <main className='flex-grow'>
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
         <FeaturesBlocks />
-        <Testimonials />
-        <Newsletter />
-
       </main>
 
       {/*  Site footer */}
       <Footer />
-
     </div>
   );
 }
